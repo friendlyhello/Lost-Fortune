@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
   
-const int GOLD_PIECES = 900;
+const int GOLD_PIECES = 1000;
 int adventurers, killed, survivors;
 string leader;
 
@@ -48,7 +48,7 @@ cout << "But while laying the deceased to rest, ";
 
 cout << "they stumbled upon the buried fortune. ";
 
-cout << "So the adventurers split " << GOLD_PIECES << " gold pieces.";
+cout << "So the adventurers split " << GOLD_PIECES << " gold pieces. ";
 
 cout << leader << " held on to the extra " << (GOLD_PIECES % survivors);
 
